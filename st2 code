@@ -1,0 +1,56 @@
+<html>
+<head> 
+<title>STUDENT PROFILE CARD</title>
+    <style>
+        h2{
+           text align:center;
+       }
+        .container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            border-radius: 10px;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .card{
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: white;
+            width: 200px;
+            text-align: center;
+
+        }
+        .avatar{
+            
+            width: 70px;
+            height: 70px;
+           background:yellow        }
+           </style>
+</head>
+<body>
+    <center><h2>Student profile card</h2></center>
+    <div class="container">
+        <div class="card"> 
+      <div class="avatar">HY</div> 
+      <div class="name">Harshit yadav</div> 
+      
+      <div class="detail">2025B15410273</div> 
+      <div class="detail">CSEDS1</div> 
+        </div>
+         <div class="card"> 
+      <div class="avatar">HK</div> 
+      <div class="name">HITESH kumar</div> 
+    
+      <div class="detail">2025B15410893</div> 
+      <div class="detail">CSEDS1</div> 
+        </div>
+        
+
+    </div>
+    
+</body>
+</html>
